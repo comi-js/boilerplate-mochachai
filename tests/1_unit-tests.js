@@ -10,9 +10,9 @@ suite('Unit Tests', function () {
     });
     // #2
     test('#isDefined, #isUndefined', function () {
-      assert.isUndefined(null, 'null is not undefined');
-      assert.isDefined(undefined, 'undefined IS undefined');
-      assert.isUndefined('hello', 'A string is not undefined');
+      assert.isDefined(null, 'null is not undefined');
+      assert.isUndefined(undefined, 'undefined IS undefined');
+      assert.isDefined('hello', 'A string is not undefined');
     });
     // #3
     test('#isOk, #isNotOk', function () {
